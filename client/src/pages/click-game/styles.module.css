@@ -1,0 +1,88 @@
+.clickGame {
+    background-color: #191414;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    box-sizing: border-box;
+}
+
+.infoContainer {
+    height: 54px;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.divider {
+    height: 22px;
+    width: 1px;
+    background-color: #ffffff;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    column-gap: 32px;
+}
+
+.gameContainer {
+    flex-grow: 1;
+}
+
+.game {
+    padding: 16px 32px 32px;
+}
+
+.leaderboardWrapper {
+    width: 450px;
+}
+
+
+
+.contentHeader {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.contentDivider {
+    background-color: #ffffff;
+    height: 1px;
+    width: 100%;
+}
+
+.gameField {}
+
+.leaderboard {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 32px 32px;
+    flex-grow: 1;
+}
+
+.leaderboardList {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    flex-grow: 1;
+}
+
+.leaderboardFooter {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
